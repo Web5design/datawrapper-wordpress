@@ -21,7 +21,7 @@
 			
 				<div id="main" class="docs span8 clearfix" role="main">
 
-					<h1>Blog</h1>
+					<h1 class="title">Blog</h1>
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
