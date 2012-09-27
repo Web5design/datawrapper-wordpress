@@ -2,8 +2,10 @@
 			
 			<div id="content" class="clearfix row-fluid">
 			
-				<div id="main" class="span8 clearfix" role="main">
+				<div id="main" class="span8 clearfix docs" role="main">
 				
+					<h1 class="title">Blog</h1>
+
 					<div class="page-header"><h1><span><?php _e("Search Results for","bonestheme"); ?>:</span> <?php echo esc_attr(get_search_query()); ?></h1></div>
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

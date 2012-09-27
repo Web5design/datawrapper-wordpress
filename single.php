@@ -2,7 +2,9 @@
 			
 			<div id="content" class="clearfix row-fluid">
 			
-				<div id="main" class="span8 clearfix" role="main">
+				<div id="main" class="span8 clearfix docs" role="main">
+
+					<h1 class="title">Blog</h1>
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					

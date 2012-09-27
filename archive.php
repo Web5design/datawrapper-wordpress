@@ -2,8 +2,10 @@
 			
 			<div id="content" class="clearfix row-fluid">
 			
-				<div id="main" class="span8 clearfix" role="main">
-				
+				<div id="main" class="span8 clearfix docs" role="main">
+					
+					<h1 class="title">Blog</h1>
+
 					<div class="page-header">
 					<?php if (is_category()) { ?>
 						<h1 class="archive_title h2">
