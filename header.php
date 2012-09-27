@@ -38,8 +38,8 @@
 		
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-  		<link rel="stylesheet/less" type="text/css" href="<?php echo get_template_directory_uri(); ?>/less/bootstrap.less">
-  		<link rel="stylesheet/less" type="text/css" href="<?php echo get_template_directory_uri(); ?>/less/responsive.less">
+  		<link rel="stylesheet" type="text/css" href="http://live.datawrapper.de/static/vendor/bootstrap/css/bootstrap.css">
+  		<link rel="stylesheet" type="text/css" href="http://live.datawrapper.de/static/vendor/bootstrap/css/bootstrap-responsive.css">
   		<link rel="stylesheet" type="text/css" href="http://live.datawrapper.de/static/css/datawrapper.css">
 
 		<!-- wordpress head functions -->
