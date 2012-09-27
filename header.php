@@ -97,7 +97,7 @@
 							<nav role="navigation">
 								<a href="/" class="brand">
 				                    <img style="float: left; margin-right: 7px;" src="http://live.datawrapper.de/static/img/abzv-logo.png">
-				                    Datawrapper<span class="beta">BLOG</span>
+				                    Datawrapper<span class="beta">BETA</span>
 				                </a>
 								
 								<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
