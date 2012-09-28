@@ -597,3 +597,15 @@ blockquote.pull-left{
 .page-header {
 	border-bottom: 0;
 }
+
+#comment-form-elements input {
+	width: 160px;
+}
+
+textarea#comment {
+	width: 96%;
+	height: 200px;
+	font-size: 19px;
+	font-weight: 300;
+	padding: 8px;
+}
