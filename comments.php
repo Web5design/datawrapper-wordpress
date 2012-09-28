@@ -111,11 +111,10 @@ The comments page for Bones
 		
 		<li class="span4">
 			<div class="control-group">
-			  <label for="email"><?php _e("Mail","bonestheme"); ?> <?php if ($req) echo "(required)"; ?></label>
+			  <label for="email"><?php _e("Mail","bonestheme"); ?> <?php if ($req) echo "(required, not published)"; ?></label>
 			  <div class="input-prepend">
 			  	<span class="add-on"><i class="icon-envelope"></i></span><input type="email" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" placeholder="<?php _e("Your Email","bonestheme"); ?>" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
 			  </div>
-			  <p class="help-block">(<?php _e("will not be published","bonestheme"); ?>)</p>
 		  	</div>
 		</li>
 		
