@@ -92,7 +92,7 @@ The comments page for Bones
 
 	<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" class="form-vertical" id="commentform">
 
-	<div class="row">
+	
 		<div class="span4">
 	<?php if ( is_user_logged_in() ) : ?>
 
@@ -100,7 +100,7 @@ The comments page for Bones
 
 	<?php else : ?>
 	
-	<ul id="comment-form-elements" class="clearfix">
+	<ul id="comment-form-elements">
 		
 		<li>
 			<div class="control-group">
@@ -139,9 +139,8 @@ The comments page for Bones
 				<textarea name="comment" id="comment" placeholder="<?php _e("Your Comment Here…","bonestheme"); ?>" tabindex="4"></textarea>
 			</div>
 		</div> <!-- end span4 -->
-	</div> <!-- end row -->
 	
-	<div class="form-actions">
+	<div class="form-actions clearfix">
 	  <input class="btn btn-primary" name="submit" type="submit" id="submit" tabindex="5" value="<?php _e("Submit Comment","bonestheme"); ?>" />
 	  <?php comment_id_fields(); ?>
 	</div>
