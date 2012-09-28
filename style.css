@@ -609,3 +609,7 @@ textarea#comment {
 	font-weight: 300;
 	padding: 8px;
 }
+
+.post_content li {
+    margin-bottom: 5px;
+}
