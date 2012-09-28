@@ -593,3 +593,7 @@ blockquote.pull-left{
 		padding-right: 0;
 	}
 }
+
+.page-header {
+	border-bottom: 0;
+}
