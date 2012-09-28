@@ -65,7 +65,7 @@ The comments page for Bones
 		<?php else : ?>
 		
 			<!-- If comments are closed. -->
-			<p class="alert alert-info"><?php _e("Comments are closed","bonestheme"); ?>.</p>
+			<!-- <p class="alert alert-info"><?php _e("Comments are closed","bonestheme"); ?>.</p> -->
 			
 		<?php endif; ?>
 
@@ -92,6 +92,8 @@ The comments page for Bones
 
 	<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" class="form-vertical" id="commentform">
 
+	<div class="row">
+		<div class="span4">
 	<?php if ( is_user_logged_in() ) : ?>
 
 	<p class="comments-logged-in-as"><?php _e("Logged in as","bonestheme"); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e("Log out of this account","bonestheme"); ?>"><?php _e("Log out","bonestheme"); ?> &raquo;</a></p>
@@ -131,12 +133,13 @@ The comments page for Bones
 	</ul>
 
 	<?php endif; ?>
-	
-	<div class="clearfix">
-		<div class="input">
-			<textarea name="comment" id="comment" placeholder="<?php _e("Your Comment Here…","bonestheme"); ?>" tabindex="4"></textarea>
 		</div>
-	</div>
+		<div class="span4">
+			<div class="input">
+				<textarea name="comment" id="comment" placeholder="<?php _e("Your Comment Here…","bonestheme"); ?>" tabindex="4"></textarea>
+			</div>
+		</div> <!-- end span4 -->
+	</div> <!-- end row -->
 	
 	<div class="form-actions">
 	  <input class="btn btn-primary" name="submit" type="submit" id="submit" tabindex="5" value="<?php _e("Submit Comment","bonestheme"); ?>" />
