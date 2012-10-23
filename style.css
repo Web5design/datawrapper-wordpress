@@ -613,3 +613,7 @@ textarea#comment {
 .post_content li {
     margin-bottom: 5px;
 }
+
+.post_content iframe {
+	margin: 15px 0 20px;
+}
