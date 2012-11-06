@@ -96,7 +96,7 @@
 						<div class="container-fluid nav-container">
 							<nav role="navigation">
 								<a href="/" class="brand">
-				                    <img style="float: left; margin-right: 7px;" src="http://live.datawrapper.de/static/img/abzv-logo.png">
+				                    <img style="float: left; margin-right: 7px;" src="http://dev.datawrapper.de/static/img/abzv-logo.png">
 				                    Datawrapper<span class="beta">BETA</span>
 				                </a>
 								

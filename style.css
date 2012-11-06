@@ -130,6 +130,10 @@ input, textarea, select, .uneditable-input {
 	margin-top: 18px !important;
 }
 
+.page-header h1 {
+	font-weight: 300!important;
+}
+
 #main article footer{
 	border-top: none;
 	margin-top: 0;
