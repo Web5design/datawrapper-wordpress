@@ -626,3 +626,7 @@ textarea#comment {
 .docs .post_content li {
 	font-size: 14px!important;
 }
+
+footer .meta {
+	font-size: 12px!important;
+}
