@@ -622,6 +622,7 @@ textarea#comment {
 	margin: 15px 0 20px;
 }
 
+.docs .post_content p,
 .docs .post_content li {
-	font-size: 16px;
+	font-size: 14px!important;
 }
