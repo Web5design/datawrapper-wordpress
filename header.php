@@ -38,9 +38,9 @@
 		
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-  		<link rel="stylesheet" type="text/css" href="http://live.datawrapper.de/static/vendor/bootstrap/css/bootstrap.css">
-  		<link rel="stylesheet" type="text/css" href="http://live.datawrapper.de/static/vendor/bootstrap/css/bootstrap-responsive.css">
-  		<link rel="stylesheet" type="text/css" href="http://live.datawrapper.de/static/css/datawrapper.css">
+  		<link rel="stylesheet" type="text/css" href="http://datawrapper.de/static/vendor/bootstrap/css/bootstrap.css">
+  		<link rel="stylesheet" type="text/css" href="http://datawrapper.de/static/vendor/bootstrap/css/bootstrap-responsive.css">
+  		<link rel="stylesheet" type="text/css" href="http://datawrapper.de/static/css/datawrapper.css">
 
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
