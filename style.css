@@ -621,3 +621,7 @@ textarea#comment {
 .post_content iframe {
 	margin: 15px 0 20px;
 }
+
+.docs .post_content li {
+	font-size: 16px;
+}
