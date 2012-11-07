@@ -627,6 +627,11 @@ textarea#comment {
 	font-size: 14px!important;
 }
 
+footer {
+	border-top: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px #EEEEEE inset;
+}
+
 footer .meta {
 	font-size: 12px!important;
 }
