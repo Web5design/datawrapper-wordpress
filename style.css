@@ -132,6 +132,8 @@ input, textarea, select, .uneditable-input {
 
 .page-header h1 {
 	font-weight: 300!important;
+	font-size: 34.5px;
+    letter-spacing: -1px;
 }
 
 #main article footer{
