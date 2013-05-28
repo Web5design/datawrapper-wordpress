@@ -96,8 +96,8 @@
 						<div class="container-fluid nav-container">
 							<nav role="navigation">
 								<a href="/" class="brand">
-				                    <img style="float: left; margin-right: 7px;" src="http://datawrapper.de/static/img/abzv-logo.png">
-				                    Datawrapper<span class="beta">BETA</span>
+				                    <img style="float: left; margin-right: 7px;" src="http://datawrapper.de/static/custom/abzv-logo.png">
+				                    Datawrapper<span class="beta"></span>
 				                </a>
 								
 								<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
